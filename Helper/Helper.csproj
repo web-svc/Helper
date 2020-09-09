@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Helper.Extension</PackageId>
+    <Authors>Narender Kumar</Authors>
+    <Company>Web Svc</Company>
+    <Description>Helper is to assist with the Extension method for providing common functionality.
+Contains: Extension method for convert operation
+1. converts object to boolean (input parameter: type: object type) and returns either true/ false</Description>
+    <Copyright>@Web Svc</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>EULA.txt</PackageLicenseFile>
+    <PackageProjectUrl>NA</PackageProjectUrl>
+    <PackageTags>Helper, ConvertTo</PackageTags>
+    <PackageReleaseNotes>Includes ConvertToBoolean</PackageReleaseNotes>
+    <NeutralLanguage />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\EULA.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

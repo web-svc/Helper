@@ -7,14 +7,18 @@
     <Company>Web Svc</Company>
     <Description>Helper is to assist with the Extension method for providing common functionality.
 Contains: Extension method for convert operation
-1. converts object to boolean (input parameter: type: object type) and returns either true/ false</Description>
+1. converts object to boolean (input parameter: type: object type) and returns either true/ false
+2. converts object to string (input parameter: type: object type) and returns string</Description>
     <Copyright>@Web Svc</Copyright>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>EULA.txt</PackageLicenseFile>
-    <PackageProjectUrl>NA</PackageProjectUrl>
-    <PackageTags>Helper, ConvertTo</PackageTags>
-    <PackageReleaseNotes>Includes ConvertToBoolean</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/web-svc/</PackageProjectUrl>
+    <PackageTags>Helper, ConvertToBoolean, ConvertToString</PackageTags>
+    <PackageReleaseNotes>Includes ConvertToBoolean, ConvertToString</PackageReleaseNotes>
     <NeutralLanguage />
+    <Version>1.0.2</Version>
+    <RepositoryUrl>https://github.com/web-svc/Helper</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

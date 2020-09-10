@@ -26,6 +26,12 @@ namespace Helper
         /// <returns>returns string</returns>
         public static string ConvertToString(this object value) => Convert.ToString(value);
         /// <summary>
+        /// converts object to string
+        /// </summary>
+        /// <param name="value">expects object value</param>
+        /// <returns>returns string</returns>
+        public static string ConvertToString(this object value) => Convert.ToString(value);
+        /// <summary>
         /// converts object to int32
         /// </summary>
         /// <param name="value">expects object value</param>

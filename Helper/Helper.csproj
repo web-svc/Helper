@@ -8,7 +8,18 @@
     <Description>Helper is to assist with the Extension method for providing common functionality.
 Contains: Extension method for convert operation
 1. converts object to boolean (input parameter: type: object type) and returns either true/ false
-2. converts object to string (input parameter: type: object type) and returns string</Description>
+2. converts object to string (input parameter: type: object type) and returns string
+3. converts object to int 32(input parameter: type: object type) and returns int
+4. converts object to double(input parameter: type: object type) and returns double
+5. converts object to datetime(input parameter: type: object type) and returns datetime
+6. converts object to EpochUnixTimestamp(input parameter: type: object type) and returns datetime
+7. converts object to int64/long(input parameter: type: object type) and returns int64
+8. filter text to Alpha and Numeric text only and remove an special char other than alphabets and numeric(input parameter: type: object type) and return filtered text
+9. remove invalid xml characters from string text(input parameter: type: object type) and returns filtered text
+10. generate the random text hash(input parameter: type: object type) and returns random hash text
+11. generate the random int number(input parameter: type: object type) and rreturns random int value
+
+Added Text Services:ConvertToWords,ConvertToNumbers</Description>
     <Copyright>@Web Svc</Copyright>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>EULA.txt</PackageLicenseFile>

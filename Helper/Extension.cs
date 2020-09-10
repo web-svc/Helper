@@ -15,5 +15,11 @@ namespace Helper
         /// <param name="value">expects object value</param>
         /// <returns>returns either true/ false</returns>
         public static bool ConvertToBoolean(this object value) => Convert.ToBoolean(value);
+        /// <summary>
+        /// converts object to string
+        /// </summary>
+        /// <param name="value">expects object value</param>
+        /// <returns>returns string</returns>
+        public static string ConvertToString(this object value) => Convert.ToString(value);
     }
 }

@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageId>WebSvc.Helper</PackageId>
     <Authors>Narender Kumar</Authors>
     <Company>Web Svc</Company>
     <Description>Helper is to assist with the extension method for providing common functionality such as conversion and text operation.</Description>
     <Copyright>@Web Svc</Copyright>
-    <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>EULA.txt</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/web-svc/</PackageProjectUrl>
-    <PackageTags>Helper, ConvertToBoolean, ConvertToString, ConvertToBoolean, ConvertToString, ConvertToInteger, ConvertToDouble, ConvertToDateTime, ConvertToBigInteger, ConvertToEpochUnixTimestamp, FilterTextToAlphaNumeric, RemoveXmlChars, RandomText, RandomNumber</PackageTags>
+    <PackageProjectUrl>https://github.com/web-svc</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/web-svc/helper</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Web, WebSvc, Web Svc, Wbsvc, Helper, Extension, Helper.Extenstion, ConvertToBoolean, ConvertToString, ConvertToInteger, ConvertToDouble, ConvertToDateTime, ConvertToBigInteger, ConvertToEpochUnixTimestamp, FilterTextToAlphaNumeric, RemoveXmlChars, RandomText, RandomNumber</PackageTags>
     <PackageReleaseNotes>Contains: Extension method for convert operation
 1. converts object to boolean (input parameter: type: object type) and returns either true/ false
 2. converts object to string (input parameter: type: object type) and returns string
@@ -40,14 +40,14 @@ Covers following extension method
 10. RandomText
 11. RandomNumber
 12. GetValue of enum</PackageReleaseNotes>
-    <NeutralLanguage />
-    <Version>1.0.5</Version>
-    <RepositoryUrl>https://github.com/web-svc/Helper</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <Product>WebSvc Helper</Product>
+    <Version>1.0.6</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\EULA.txt" Link="EULA.txt">
+      <PackagePath></PackagePath>
+      <Pack>True</Pack>
+    </None>
     <None Include="..\..\EULA.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>

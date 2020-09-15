@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Helper
+namespace WebSvc.Helper
 {
     public class Service : ITextService
     {

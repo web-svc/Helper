@@ -8,7 +8,7 @@ using System.Xml;
 /// <summary>
 /// Helper is to assist with the Extension method for providing common functionality
 /// </summary>
-namespace Helper
+namespace WebSvc.Helper
 {
     /// <summary>
     /// Extension method for Convert operation

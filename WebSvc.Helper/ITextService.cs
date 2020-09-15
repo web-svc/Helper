@@ -1,4 +1,4 @@
-﻿namespace Helper
+﻿namespace WebSvc.Helper
 {
     public interface ITextService
     {

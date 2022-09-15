@@ -1,20 +1,27 @@
-﻿using System;
-using System.ComponentModel;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Xml;
-/// <summary>
+﻿/// <summary>
 /// Helper is to assist with the Extension method for providing common functionality
 /// </summary>
-namespace Helper
+namespace Helper.Extentsion
 {
+    using Helper.Constant;
+    using System.Linq;
+    using System.Reflection;
+    using System.Text;
+    using System.Text.RegularExpressions;
+    using System.Xml;
+    using System;
+    using System.ComponentModel;
     /// <summary>
     /// Extension method for Convert operation
     /// </summary>
-    public static class Extension
+    public static class Ext
     {
+        /// <summary>
+        /// Validate string if NullOrEmpty and return bool.
+        /// </summary>
+        /// <param name="value">string</param>
+        /// <returns>boolean: true/ false</returns>
+        internal static bool IsEmpty(this string value) => string.IsNullOrEmpty(value);
         /// <summary>
         /// converts object to boolean
         /// </summary>
@@ -62,7 +69,7 @@ namespace Helper
         /// </summary>
         /// <param name="value">expects string value</param>
         /// <returns>return filtered text</returns>
-        public static string FilterTextToAlphaNumeric(this string value) => Regex.Replace(Convert.ToString(value), Constant.Expression_Alpha_Numeric, string.Empty);
+        public static string FilterTextToAlphaNumeric(this string value) => Regex.Replace(Convert.ToString(value), Const.Expression_Alpha_Numeric, string.Empty);
         /// <summary>
         /// remove invalid xml characters from string text
         /// </summary>
@@ -74,13 +81,13 @@ namespace Helper
         /// </summary>
         /// <param name="value">expects length (object)</param>
         /// <returns>returns random hash text</returns>
-        public static string RandomText(this object length) => new string(Enumerable.Repeat(Constant.Chars, (int)length).Select(s => s[new Random().Next(s.Length)]).ToArray());
+        public static string RandomText(this object length) => new string(Enumerable.Repeat(Const.Chars, (int)length).Select(s => s[new Random().Next(s.Length)]).ToArray());
         /// <summary>
         /// generate the random int number
         /// </summary>
         /// <param name="value">expects length (object)</param>
         /// <returns>returns random int value</returns>
-        public static int RandomNumber(this object length) => ConvertToInteger(Enumerable.Repeat(Constant.Numbers, (int)length).Select(s => s[new Random().Next(s.Length)]).ToArray());
+        public static int RandomNumber(this object length) => ConvertToInteger(Enumerable.Repeat(Const.Numbers, (int)length).Select(s => s[new Random().Next(s.Length)]).ToArray());
         /// <summary>
         /// Get Description attribute value of an enum
         /// </summary>

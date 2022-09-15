@@ -54,4 +54,8 @@ Covers following extension method
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
 </Project>

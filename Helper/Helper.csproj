@@ -41,7 +41,7 @@ Covers following extension method
 11. RandomNumber
 12. GetValue of enum</PackageReleaseNotes>
     <NeutralLanguage />
-    <Version>1.0.5</Version>
+    <Version>1.1.0</Version>
     <RepositoryUrl>https://github.com/web-svc/Helper</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <Product>WebSvc Helper</Product>
@@ -52,10 +52,6 @@ Covers following extension method
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Model\" />
   </ItemGroup>
 
 </Project>

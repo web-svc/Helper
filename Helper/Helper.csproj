@@ -48,7 +48,7 @@ Covers following extension method
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\EULA.txt">
+    <None Include="..\..\..\Narender.K\EULA.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

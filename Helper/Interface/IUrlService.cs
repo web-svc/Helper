@@ -4,6 +4,7 @@
     public interface IUrlService
     {
         string UrlEncode(string value);
-        string UrlBuilder(IList<IParameters> parameters);
+        string QueryBuilder(IList<IParameters> parameters);
+        List<IParameters> ParseQueryString(string query);
     }
 }

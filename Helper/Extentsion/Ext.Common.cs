@@ -21,7 +21,7 @@ namespace Helper.Extentsion
         /// </summary>
         /// <param name="value">string</param>
         /// <returns>boolean: true/ false</returns>
-        internal static bool IsEmpty(this string value) => string.IsNullOrEmpty(value);
+        public static bool IsEmpty(this string value) => string.IsNullOrEmpty(value);
         /// <summary>
         /// converts object to boolean
         /// </summary>

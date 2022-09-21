@@ -45,7 +45,7 @@ Covers following extension method
 12. GetValue of enum
 </PackageReleaseNotes>
     <NeutralLanguage />
-    <Version>1.1.5</Version>
+    <Version>1.1.6</Version>
     <RepositoryUrl>https://github.com/web-svc/Helper</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <Product>WebSvc Helper</Product>

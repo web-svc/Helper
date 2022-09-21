@@ -98,5 +98,27 @@ namespace Helper.Extentsion
             var attribute = e.GetType().GetTypeInfo().GetMember(e.ToString()).FirstOrDefault(member => member.MemberType == MemberTypes.Field).GetCustomAttributes(typeof(DescriptionAttribute), false).SingleOrDefault() as DescriptionAttribute;
             return attribute?.Description ?? e.ToString();
         }
+        /// <summary>
+        /// PropertyCopier with static method Copy to copy public properties from the child object to the parent object.
+        /// </summary>
+        /// <param name="parent">parent obj</param>
+        /// <param name="self">self obj</param>
+        public static void CopyPropertiesFrom(this object parent, object self)
+        {
+            var fromProperties = self.GetType().GetProperties();
+            var toProperties = parent.GetType().GetProperties();
+
+            foreach (var fromProperty in fromProperties)
+            {
+                foreach (var toProperty in toProperties)
+                {
+                    if (fromProperty.Name == toProperty.Name && fromProperty.PropertyType == toProperty.PropertyType)
+                    {
+                        toProperty.SetValue(parent, fromProperty.GetValue(self));
+                        break;
+                    }
+                }
+            }
+        }
     }
 }

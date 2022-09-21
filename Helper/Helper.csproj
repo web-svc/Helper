@@ -10,7 +10,7 @@
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>EULA.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/web-svc/</PackageProjectUrl>
-    <PackageTags>Helper, ConvertToBoolean, ConvertToString, ConvertToBoolean, ConvertToString, ConvertToInteger, ConvertToDouble, ConvertToDateTime, ConvertToBigInteger, ConvertToEpochUnixTimestamp, FilterTextToAlphaNumeric, RemoveXmlChars, RandomText, RandomNumber</PackageTags>
+    <PackageTags>Helper, ConvertToBoolean, ConvertToString, ConvertToBoolean, ConvertToString, ConvertToInteger, ConvertToDouble, ConvertToDateTime, ConvertToBigInteger, ConvertToEpochUnixTimestamp, FilterTextToAlphaNumeric, RemoveXmlChars, RandomText, RandomNumber, PropertyCopier</PackageTags>
     <PackageReleaseNotes>Contains: Extension method for convert operation
 1. converts object to boolean (input parameter: type: object type) and returns either true/ false
 2. converts object to string (input parameter: type: object type) and returns string
@@ -24,6 +24,7 @@
 10. generate the random text hash(input parameter: type: object type) and returns random hash text
 11. generate the random int number(input parameter: type: object type) and rreturns random int value
 12. Get Description attribute value of an enum and (input parameter: expects enum) and return string value
+13. PropertyCopier 
 
 Added Text Services:ConvertToWords,ConvertToNumbers
 
@@ -45,7 +46,7 @@ Covers following extension method
 12. GetValue of enum
 </PackageReleaseNotes>
     <NeutralLanguage />
-    <Version>1.1.6</Version>
+    <Version>1.1.7</Version>
     <RepositoryUrl>https://github.com/web-svc/Helper</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <Product>WebSvc Helper</Product>

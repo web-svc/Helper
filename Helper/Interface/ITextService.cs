@@ -5,5 +5,6 @@
         string ConvertToWords(int value);
         string ConvertToNumbers(string value);
         string GenerateNonce();
+        string GenerateTimeStamp();
     }
 }

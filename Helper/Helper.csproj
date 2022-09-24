@@ -44,9 +44,9 @@ Covers following extension method
 10. RandomText
 11. RandomNumber
 12. GetValue of enum
-</PackageReleaseNotes>
+13. GenerateTimeStamp</PackageReleaseNotes>
     <NeutralLanguage />
-    <Version>1.1.8</Version>
+    <Version>1.1.9</Version>
     <RepositoryUrl>https://github.com/web-svc/Helper</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <Product>WebSvc Helper</Product>

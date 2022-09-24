@@ -22,5 +22,10 @@
         {
             return new Random().Next(123400, 9999999).ToString();
         }
+
+        public string GenerateTimeStamp()
+        {
+            return Convert.ToInt64((DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0)).TotalSeconds).ToString();
+        }
     }
 }
